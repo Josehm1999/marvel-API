@@ -21,7 +21,7 @@ const fillData = (data) => {
   data.forEach((character) => {
     html += '<div class="col">';
     html += '<div class="card h-100 text-white bg-dark mb-3">';
-    html += `<img src="${character.thumbnail.path}/portrait_incredible.${character.thumbnail.extension}" class="card-img-top" alt="...">`;
+    html += `<img src="${character.thumbnail.path}.${character.thumbnail.extension}" class="card-img-top" alt="...">`;
     html += '<div class="card-body ">';
     html += `<h5 class="card-title text-capitalize">${character.title}</h5>`;
     html += "</div>";
